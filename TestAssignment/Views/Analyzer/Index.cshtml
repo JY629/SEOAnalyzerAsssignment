@@ -1,0 +1,96 @@
+﻿@model TestAssignment.Models.InputText
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 id="title">SEO Analyzer</h1>
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <p id="titleInfo">Please choose your option</p>
+            </div>
+            <div class="col-sm-3 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+                <a id="btnText" class="btn btn-primary btn-lg pull-right">Analyze English Words</a>
+            </div>
+            <div class="col-sm-3  col-md-3 col-lg-3">
+                <a id="btnURL" class="btn btn-primary btn-lg">Analyze URL</a>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <div class="row">
+            @using (Html.BeginForm("CountWords", "Analyzer", FormMethod.Post, new { id = "analyzer-filter-form" }))
+            {
+
+                <div class="col-sm-12 col-md-12 col-lg-12 hidden" id="text-box-input-container">
+                    <div class="form-group">
+                        <label for="internal-source">Paste your text here (only words at least 3 symbol long will be counted)</label><br />
+                        @Html.TextAreaFor(model => model.Text, new { @id = "internal-source", @placeholder = "Paste text here", @style = "width:100%; height:200px;" })<br />
+                        <small>Words <strong>except Stop words</strong> will not be <strong>filtered</strong></small>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12 hidden" id="url-input-container">
+                    <div class="form-group" id="external-source-options">
+                        <div class="form-group">
+                            <label for="external-source">Enter an URL address</label>
+                            @Html.TextBoxFor(model => model.ExternlLink, new { @id = "external-source", @placeholder = "Paste URL here", @style = "width:100%; height:auto;" })
+                        </div>
+                        <div class="form-group">
+                            <label>Select optional Analisys</label>
+                            <ul>
+                                <li>
+                                    <label>
+                                        @Html.CheckBoxFor(m => m.CountWordsInMeta)
+                                        Look up keywords in meta tag
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        @Html.CheckBoxFor(m => m.IncludeExternalLinks)
+                                        Get external links list
+                                    </label>
+                                </li>
+                            </ul>
+                            <small> Words that are shorter than <strong>3 symbols</strong> or <strong>contain digits/special characters</strong> or exist in <strong>Stop Word list</strong> will be omitted.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input id="submit-button" type="submit" class="btn btn-primary btn-lg hidden" value="Analyze">
+                </div>
+                <div id="preloader" class="hidden">
+                    <i class="fa fa-cog fa-spin fa-5x fa-fw" aria-hidden="true"></i>
+                    Analyzing ...
+                    <br />
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="jumbotron" id="analisys-results-container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 analyzer-messages">
+                <h2 id="analyze-object-title" class="hidden">Analyzed results for: <strong><span class="analyze-object"></span></strong></h2>
+                <div id="error-msg" class="alert alert-danger hidden analyzer-messages">
+                </div>
+            </div>
+            <br />
+            <div>
+                <div id="jsGrid-analyzer-results-keywords" class="jsgrid table-results-container"></div>
+            </div>
+            <div>
+                <div id="jsGrid-analyzer-results-keywords-meta" class="jsgrid table-results-container"></div>
+            </div>
+            <div>
+                <div id="jsGrid-analyzer-results-external-links" class="jsgrid table-results-container"></div>
+            </div>
+        </div>
+        <br />
+    </div>
+</div>
+
+
