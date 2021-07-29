@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAssignment", "TestAssignment\TestAssignment.csproj", "{AB808A4D-35BA-4AEF-BA67-9DEBBE79FCD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEOAnalyzerAssignment", "TestAssignment\SEOAnalyzerAssignment.csproj", "{AB808A4D-35BA-4AEF-BA67-9DEBBE79FCD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
