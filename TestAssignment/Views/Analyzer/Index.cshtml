@@ -21,7 +21,7 @@
             </div>
         </div>
     </div>
-    <div class="jumbotron">
+    <div class="jumbotron hidden" id="analysis-form">
         <div class="row">
             @using (Html.BeginForm("CountWords", "Analyzer", FormMethod.Post, new { id = "analyzer-filter-form" }))
             {

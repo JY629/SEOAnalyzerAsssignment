@@ -6,6 +6,7 @@
 }
 
 $('#btnText').click(function (ev) {
+    $("#analysis-form").removeClass('hidden');
     ev.preventDefault();
     clearResult();
     $("#submit-button").removeClass('hidden');
@@ -20,6 +21,7 @@ $('#btnText').click(function (ev) {
 });
 
 $('#btnURL').click(function (ev) {
+    $("#analysis-form").removeClass('hidden');
     ev.preventDefault();
     clearResult();
     $("#submit-button").removeClass('hidden');
@@ -145,6 +147,7 @@ $(function () {
             },
             success: function (data) {
                 $('#preloader').addClass("hidden");
+                $('#analysis-results-container').removeClass("hidden");
                 $('html, body').animate({
                     scrollTop: $("#analysis-results-container").offset().top
                 }, 2000);
