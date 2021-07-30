@@ -37,11 +37,11 @@ $(function () {
     var sortMsg = "</br>  <small class='green'>(click <i class='fa fa-hand-pointer-o' aria-hidden='true'></i> to sort)</small>";
     var messages = {
         textAreInput: "Input in Text Area",
-        emptyInputs: "No input or the input is not in English. Plese enter text in English or url to Engish page",
+        emptyInputs: "Empty input or the input is not in English. Plese enter text in English or url to Engish page",
         emptyUrlInput: "External source is empty",
         emptyExternalSourceResponse: "External source service has problems ",
         noData: "No data is retrieved",
-        serverError: "Oops Something went wrong"
+        serverError: "Oops! Something went wrong"
     };
 
     function intializeSortableTable(containerId, data, numberOfColumns, colsTitles) {
@@ -171,19 +171,16 @@ $(function () {
                     }
 
                     AddBootsrapGridClasses();
-                    $('#analyze-else').removeClass('hidden');
                 }
                 else {
                     $('#error-msg').html(messages.noData);
                     $('#error-msg').removeClass('hidden');
-                    $('#analyze-else').removeClass('hidden');
                 }
             },
             error: function (err) {
                 $('#preloader').addClass("hidden");
                 $('#error-msg').html(messages.serverError);
                 $('#error-msg').removeClass('hidden');
-                $('#analyze-else').removeClass('hidden');
             }
         });
 
