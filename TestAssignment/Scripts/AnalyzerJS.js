@@ -44,9 +44,9 @@ $(function () {
         serverError: "Oops Something went wrong"
     };
 
-    function intializeSortableTable(containerId, data, numberOfColums, colsTitles) {
+    function intializeSortableTable(containerId, data, numberOfColumns, colsTitles) {
         var tableFields = [];
-        switch (numberOfColums) {
+        switch (numberOfColumns) {
             case 1:
                 tableFields = [{ name: "Key", type: "text", width: "100%", title: colsTitles[0] }];
                 break;
@@ -146,7 +146,7 @@ $(function () {
             success: function (data) {
                 $('#preloader').addClass("hidden");
                 $('html, body').animate({
-                    scrollTop: $("#analisys-results-container").offset().top
+                    scrollTop: $("#analysis-results-container").offset().top
                 }, 2000);
                 if (data) {
                     var jsonData = JSON.parse(data);
