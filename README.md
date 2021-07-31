@@ -5,6 +5,11 @@
 <br />
 <br />
 
+Decision:
+1. Analysis for plain text and URL will be separated into different section, since their processes are quite different. For example, analysis for URL will be having few more steps than the analysis for plain text
+
+<br />
+
 Kindly please rebuild the solution once you have downloaded the project.
 
 <br />
