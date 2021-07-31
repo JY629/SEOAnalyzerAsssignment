@@ -8,7 +8,6 @@ Kindly please rebuild the solution once you have downloaded the project.
 NuGet Packages used:
 1. HtmlAgilityPack
 2. AutoFac
-3.
 
 <br />
 
