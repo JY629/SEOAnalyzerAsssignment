@@ -1,6 +1,8 @@
 # SEOAnalyzerAsssignment
-<h2>SEO Analyzer</h2>
+<h3>SEO Analyzer</h3>
 SEO Analysis - Process of examining the website in order to gain better understanding of the site being optimized and figuring out the solution to improve the site.
+
+<br />
 
 Kindly please rebuild the solution once you have downloaded the project.
 
