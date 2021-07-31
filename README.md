@@ -5,6 +5,13 @@ Kindly please rebuild the solution once you have downloaded the project.
 
 <br />
 
+NuGet Packages used:
+1. HtmlAgilityPack
+2. AutoFac
+3.
+
+<br />
+
 Concerns of this system:
 1. With the aid of SEO, it is able to analyze the keyword as well as the frequency in the sorting table form.
 
