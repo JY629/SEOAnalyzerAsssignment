@@ -13,7 +13,7 @@ Steps on how to use the system:
 3. Click on the SEOAnalyzerAssignment.sln
 4. Rebuild the solution
 5. Run the project and you are ready to go!
-<br /><br />
+
 **Please take note of your input, make sure the input match the form caption.**
 
 
