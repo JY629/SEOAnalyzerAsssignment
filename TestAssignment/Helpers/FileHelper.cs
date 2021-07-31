@@ -25,7 +25,7 @@ namespace TestAssignment.Interface
             }
             catch (Exception ex)
             {
-                //TODO logger
+                throw ex;
             }
 
             return data;

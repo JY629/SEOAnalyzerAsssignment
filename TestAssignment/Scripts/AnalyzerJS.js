@@ -138,7 +138,6 @@ $(function () {
                 var xhr = $.ajaxSettings.xhr();
                 if (xhr.upload) {
                     xhr.upload.addEventListener('progress', function () {
-                        $('#analyze-else').addClass('hidden');
                         $('#preloader').removeClass("hidden");
                         clearResult();
                     }, false);

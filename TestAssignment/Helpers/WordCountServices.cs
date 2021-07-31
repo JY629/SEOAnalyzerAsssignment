@@ -108,9 +108,8 @@ namespace TestAssignment.Interface
 
         public IDictionary<string, int> GetWordsFrequenciesFromExternalSource(HtmlDocument document)
         {
-            var body = document.DocumentNode.SelectSingleNode("//body");
-            var text = body.InnerText;
-            var dictionary = GetWordsFrequenciesFromText(text);
+            var body = document.DocumentNode.SelectSingleNode("//body").InnerText;
+            var dictionary = GetWordsFrequenciesFromText(body);
 
             return dictionary;
         }
