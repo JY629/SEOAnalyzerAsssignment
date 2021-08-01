@@ -35,7 +35,7 @@ Testings:
 
 | Valid URL  | Invalid URL |
 | ----------------- | ------------------ |
-| https://www.google.com/aclk?sa=L&ai=DChcSEwjKpO-Y4o7yAhXPfysKHfCkCeYYABAAGgJzZg&ae=2&sig=AOD64_06yEg2GEXESEpgT_NBuTs6Ri0ATQ&q&adurl&ved=2ahUKEwjK7eCY4o7yAhWdyjgGHSv0ABUQ0Qx6BAgDEAE| asax.come          |
+| https://www.apple.com/my/| asax.come          |
 
 <br />
 
