@@ -29,13 +29,13 @@ Kindly please rebuild the solution once you have downloaded the project.
 <br />
 
 <b>Testings:</b>
-| Valid Plain text  | Invalid Plain text |
-| ----------------- | ------------------ |
-| I have an apple pie| 我有苹果派 (must be in english)          |
+| Valid Plain text         | Invalid Plain text               |
+| ------------------------ | -------------------------------- |
+| I have an apple pie      | 我有苹果派 (must be in english)   |
 
-| Valid URL  | Invalid URL |
-| ----------------- | ------------------ |
-| https://www.apple.com/my/| asax.com          |
+| Valid URL                | Invalid URL                      |
+| ------------------------ | -------------------------------- |
+| https://www.apple.com/my/| asax.com   (URL not exist)       |
 
 <br />
 
