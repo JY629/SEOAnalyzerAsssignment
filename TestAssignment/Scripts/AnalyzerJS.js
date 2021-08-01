@@ -39,10 +39,10 @@ $(function () {
     var sortMsg = "</br>  <small class='green'>(click <i class='fa fa-hand-pointer-o' aria-hidden='true'></i> to sort)</small>";
     var messages = {
         textAreInput: "Input in Text Area",
-        emptyInputs: "Empty input or the input is not in English. Plese enter text in English or url to Engish page",
-        emptyUrlInput: "External source is empty",
-        emptyExternalSourceResponse: "External source service has problems ",
-        noData: "No data is retrieved",
+        emptyInputs: "Invalid input! Empty input or the input is not in English. Plese enter text in English or url to Engish page",
+        emptyUrlInput: "Invalid input! External source is empty",
+        emptyExternalSourceResponse: "An error has occured. External source service has problems ",
+        noData: "An error has occured. No data is retrieved",
         serverError: "Oops! Something went wrong"
     };
 
