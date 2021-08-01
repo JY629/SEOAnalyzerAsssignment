@@ -5,6 +5,8 @@
 
 Kindly please rebuild the solution once you have downloaded the project.
 
+<br />
+
 <b>SEO Analysis</b> - Process of examining the website in order to gain better understanding of the site being optimized and figuring out the solution to improve the site.
 
 <br />
