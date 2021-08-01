@@ -28,6 +28,14 @@ Steps on how to use the system:
 
 <br />
 
+Testings:
+| Valid Plain text  | Invalid Plain text |
+| ----------------- | ------------------ |
+| I have a apple pie| 我有苹果派          |
+
+
+<br />
+
 NuGet Packages used:
 1. HtmlAgilityPack
 2. AutoFac
