@@ -35,7 +35,7 @@ Testings:
 
 | Valid URL  | Invalid URL |
 | ----------------- | ------------------ |
-| https://www.apple.com/my/| asax.come          |
+| https://www.apple.com/my/| asax.com          |
 
 <br />
 
