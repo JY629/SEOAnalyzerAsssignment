@@ -39,7 +39,7 @@ Kindly please rebuild the solution once you have downloaded the project.
 
 <br />
 
-<b>NuGet Packages used:
+<b>NuGet Packages used:</b>
 1. HtmlAgilityPack
 2. AutoFac
 
