@@ -10,7 +10,6 @@ Kindly please rebuild the solution once you have downloaded the project.
 <b>SEO Analysis</b> - Process of examining the website in order to gain better understanding of the site being optimized and figuring out the solution to improve the site.
 
 <br />
-<br />
 
 <b>Decision:</b>
 1. Analysis for plain text and URL will be separated into different section, since their processes are quite different. For example, analysis for URL will be having few more steps than the analysis for plain text
