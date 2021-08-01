@@ -1,5 +1,10 @@
 # SEOAnalyzerAsssignment
 <h3>SEO Analyzer</h3>
+
+<br />
+
+Kindly please rebuild the solution once you have downloaded the project.
+
 <b>SEO Analysis</b> - Process of examining the website in order to gain better understanding of the site being optimized and figuring out the solution to improve the site.
 
 <br />
@@ -12,10 +17,6 @@
 
 <b>Concerns:</b>
 1. With the aid of SEO, it is able to analyze the keyword as well as the frequency in the sorting table form.
-
-<br />
-
-Kindly please rebuild the solution once you have downloaded the project.
 
 <br />
 
