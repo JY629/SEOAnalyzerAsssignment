@@ -10,7 +10,7 @@ Decision:
 
 <br />
 
-Concerns of this system:
+Concerns:
 1. With the aid of SEO, it is able to analyze the keyword as well as the frequency in the sorting table form.
 
 <br />
