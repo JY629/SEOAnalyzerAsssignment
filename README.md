@@ -31,7 +31,7 @@ Kindly please rebuild the solution once you have downloaded the project.
 <b>Testings:</b>
 | Valid Plain text  | Invalid Plain text |
 | ----------------- | ------------------ |
-| I have a apple pie| 我有苹果派          |
+| I have an apple pie| 我有苹果派          |
 
 | Valid URL  | Invalid URL |
 | ----------------- | ------------------ |
